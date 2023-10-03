@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Gabarito;
+    font-family: 'Gabarito', cursive;
 }
 
 header > h1{
@@ -10,8 +10,9 @@ header > h1{
 }
 
 header{
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     text-align: center;
+    color: rgb(80, 95, 102);
 }
 
 #contenedor_imagen{
@@ -23,5 +24,23 @@ header{
     height: 60vh;
     width: 40vw;
     border-radius: 50%;
-    
+}
+
+.contenido{
+    margin: 0 10vw;
+    text-align: center;
+}
+
+.titulo{
+    color: rgb(153, 153, 152);
+    display: inline-block;
+    font-size: 30px;
+}
+
+.contenido ul{
+    list-style: none;
+}
+
+section{
+    margin: 10px 0 0 0;
 }
