@@ -1,0 +1,5 @@
+#contenedor_imagen img{
+    height: 60vh;
+    max-height: none;
+    width: 40vw;
+}
